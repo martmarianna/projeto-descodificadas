@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+   
+*{    
+    margin: 0;
+    padding:0;
+}
+
+#titulo {
+    font-family: "nunito", sans-serif;
+    color: whitesmoke;
+    
+    max-width: 1120px;
+    margin: auto; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 718px;
+    height: 482px; 
+    margin:auto;
+    background: url(assets/formulario.1jpg.jpeg) center no-repeat;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: xx-large;
+    font-weight: 600;
+    color: whitesmoke;
+
+    margin-top: 170px;
+}
+
+#subtitulo {
+    font-family: "nunito", sans-serif;
+    color: whitesmoke;
+    
+    max-width: 1120px;
+    margin: auto;
+    background-color: #564642;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    border:0;
+}
+
+body {
+    background-color: #D8BE92;
+    font-family: nunito;
+    font-size: medium;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.principal {
+    background-color: #564642;
+    max-width: 1120px;
+    margin: auto;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+fieldset .grupo .campo {
+    float: left;
+    margin-right: 1 em;
+}
+
+.campo input [type="text"], .campo input [type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #D89B92;
+    display:block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: white;
+}
+
+.botao {
+    font-size: 1em;
+    background: white;
+    border: 0;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    background-color: whitesmoke;
+    padding: 0.5em 1em;
+    box-shadow: 2px 2px 2px #564642;
+}
+
+.botao:hover{
+    background-color: #D8BE92;
+}
+
+.footer {
+    font-family: "nunito", sans-serif;
+    color: whitesmoke;
+    font-size: small;
+        
+    max-width: 1120px;
+    margin: auto;
+    background-color: #9CA1A6;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

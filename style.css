@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+* { /*Para zerar algumas propriedades padrão do CSS e criar as próprias*/
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body { /*aplicar cor no fundo e nas letras do corpo do site*/
+    background-color: #D8BE92;
+    color: whitesmoke;
+}
+
+html {
+    font-family: jost , sans-serif;
+    font-weight: 300;
+}
+
+a { /*tirar a decoração padrão da tag âncora*/
+    text-decoration: none;
+}
+
+ul { /*tirar a decoração padrão da tag lista*/
+    list-style: none;
+}
+
+nav { /*representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página,*/
+    max-width: 1120px; /*largura máxima de um elemento*/
+    margin:auto;
+    padding: 1.5rem 10 rem ; /*define uma a distância entre o conteúdo de um elemento e suas bordas. vert, hor*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #9AB661;
+}
+
+.logo {
+    font-family: "Playwrite AU QLD", cursive;
+    font-size: medium;
+    font-weight: 600;
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+.menu {
+    display:flex;
+    flex-direction: row;
+    gap:1.5rem;
+    padding: 1rem;
+}
+
+.titulo-site {
+    width: 718px;
+    height: 482px; 
+    margin:auto;
+    background: url(assets/background-header.jpg) center no-repeat;
+}
+
+.subtitulo-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "jost", sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 3rem;
+    padding-bottom: 1rem;
+}
+
+.nome-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "Playwrite AU QLD", cursive;
+    font-size: xx-large;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.chamada1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: jost, sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 2rem;
+
+    background-color: #564642;
+    /*border-radius: 0.5rem;*/
+    /*gap: 2rem;*/
+    flex-basis: 718px;
+    /*margin-top: 1.5rem;*/
+
+    max-width: 1080px; 
+    margin:auto;
+    /*padding: 1.5rem 10 rem;*/
+    margin-bottom: 1rem;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    font-family: nunito , sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    margin: auto;
+}
+
+.botao:hover{
+    background-color: #D8BE92;
+}
+
+.apresentacao1 {
+    max-width: 1120px; /*largura máxima de um elemento*/
+    margin:auto;
+    padding: 1.5rem ;
+    padding-bottom: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    gap:1.5rem;
+    padding: 1rem;
+
+    font-family: jost, sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.card1 {
+    background-color: #564642;    
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 344px;
+    /*margin-top: 1.5rem;*/
+}
+
+.imagens {
+    max-width: 1120px; 
+    margin:auto;
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    gap:1.5rem;
+    padding: 1rem;
+}
+
+.card2 {
+    background-color: #564642;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 280px;
+    /*margin-top: 1.5rem;*/
+}
+
+/*.apresentacao2 {
+    max-width: 1120px; 
+    margin:auto;
+    padding: 1.5rem ;
+    padding-bottom: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 1.5rem;
+    padding: 1rem;
+
+    font-family: jost, sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    color: whitesmoke;
+}*/
+
+.apresentacao1-card5 {
+    background-color: #564642;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 280px;
+    /*margin-top: 1.5rem;*/
+}
+
+.apresentacao1-card6 {
+    background-color: #564642;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 280px;
+    /*margin-top: 1.5rem;*/
+}
+
+.apresentacao1-card1 {
+    background-color: #564642;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 344px;
+    /*margin-top: 1.5rem;*/
+}
+
+.apresentacao1-card2 {
+    background-color: #564642;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 344px;
+    /*margin-top: 1.5rem;*/
+}
+
+.apresentacao1-card3 {
+    background-color: #564642;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 344px;
+    /*margin-top: 1.5rem;*/
+}
+
+.apresentacao3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: jost, sans-serif;
+    font-size: small;
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 1rem;
+
+    background-color: #564642;
+    gap: 0.5rem;
+
+    max-width: 1080px; 
+    margin:auto;
+    padding: 1.5rem 10 rem ;
+    margin-bottom: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #564642;
+    gap: 2rem;
+
+    max-width: 1080px; 
+    margin:auto;
+    padding: 1.5rem 10 rem ;
+}
+
+.texto {
+    font-family: jost, sans-serif;
+    font-size: small;
+    font-weight: 300;
+    color: whitesmoke;
+    padding: 2rem;
+}
+
+.participantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #D89B92;
+    gap: 2rem;
+
+    max-width: 1080px; 
+    margin:auto;
+    padding: 1.5rem 10 rem ;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem ;
+}
+
+.texto2 {
+    font-family: jost, sans-serif;
+    font-size: smaller;
+    font-weight: 300;
+    color: whitesmoke;
+    padding: 2rem;
+}
+
+.chamada2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto3 {
+    font-family: jost, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    color: whitesmoke;
+    padding: 2rem;
+}
+
+footer {
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #9AB661;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.footer-data {
+    font-family: jost;
+    font-size: medium;
+    font-weight: 200;
+    color: whitesmoke;   
+}
+
+.footer-autor {
+    font-family: jost;
+    font-size: medium;
+    font-weight: 200;
+    color:whitesmoke;  
+}
+
+.footer-dedicatoria {
+    font-family: jost;
+    font-size: medium;
+    font-weight: 200;
+    color: whitesmoke;
+}
