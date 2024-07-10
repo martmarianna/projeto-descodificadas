@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+* { /*Para zerar algumas propriedades padrão do CSS e criar as próprias*/
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body { /*aplicar cor no fundo e nas letras do corpo do site*/
+    background-color: #D8BE92;
+    color: whitesmoke;
+}
+
+html {
+    font-family: jost , sans-serif;
+    font-weight: 300;
+}
+
+a { /*tirar a decoração padrão da tag âncora*/
+    text-decoration: none;
+}
+
+ul { /*tirar a decoração padrão da tag lista*/
+    list-style: none;
+}
+
+nav { /*representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página,*/
+    max-width: 1120px; /*largura máxima de um elemento*/
+    margin:auto;
+    padding: 1.5rem 10 rem ; /*define uma a distância entre o conteúdo de um elemento e suas bordas. vert, hor*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #9AB661;
+}
+
+.logo {
+    font-family: "Playwrite AU QLD", cursive;
+    font-size: medium;
+    font-weight: 600;
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+.menu {
+    display:flex;
+    flex-direction: row;
+    gap:1.5rem;
+    padding: 1rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 1120px;
+    margin: auto;
+    padding: 2px;
+    background-color: #564642;
+}
+
+
+.programacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer{
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #9AB661;
+    margin: auto;
+    margin-top: 2rem;
+}
